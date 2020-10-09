@@ -17,6 +17,9 @@
 - git push -u <remote> <branch>: Push <branch> to <remote>, and set default upstream for <branch>
 - git fetch: Fetch changes from remote repository
 - git pull: Fetch, and then merge
+- git stash: Stash changes from working directory
+- git stash list: List stashes
+- git stash pop: Apply stashed changes to working directory
 
 
 ## What's a branch?
