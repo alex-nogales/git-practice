@@ -9,6 +9,7 @@
 - git config: Set or get configuration
 - git log: Show history of project commits
 - git branch: list branches
+- git checkout: check out a branch (update HEAD)
 - git checkout -b: Create branch, then check it out
 
 ## What's a branch?
@@ -18,6 +19,7 @@ A branch is a ref(erence) to a commit. When HEAD points to a branch, we say we'r
 ## What's HEAD?
 
 HEAD is a ref(erence) to the "current" branch (or sometimes a commit... more on that later). Git commands like `status`, `log`, and `branch` use HEAD. `git checkout` updates HEAD to ref(er) to a different branch.
+
 ## Commit messages
 Default editor is vim (this can be changed)
 - `i` to enter *insert* mode
