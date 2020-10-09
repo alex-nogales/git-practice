@@ -7,6 +7,7 @@
 - git add: Add changes from working direcotry to staging area
 - git commit: Commit changes from staging area to current branch
 - git config: Set or get configuration
+- git log: Show history of project commits
 
 ## Commit messages
 Default editor is vim (this can be changed)
